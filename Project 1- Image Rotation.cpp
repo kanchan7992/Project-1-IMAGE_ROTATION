@@ -2,7 +2,7 @@
 
 int main()
 {
-    cv::Mat src = cv::imread("im.png", CV_LOAD_IMAGE_UNCHANGED);
+    cv::Mat src = cv::imread("im.png", IMAGE);
     double angle = -45;
 
     // get rotation matrix for rotating the image around its center in pixel coordinates
